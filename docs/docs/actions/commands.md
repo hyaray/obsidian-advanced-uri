@@ -6,7 +6,7 @@ sidebar_position: 3
 
 There are two ways to identify a command.
 - `commandname` That's the one you see when searching in Obsidian's command palette
-- `commandid` That's invisible to the user, but can be read from the plugin's source code
+- `commandid` That's invisible to the user, can be found at `.obsidian\hotkty.json` if defined hotkey, also can read from the plugin's source code
 
 :::info
 Using the command's ID is strongly recommended, because it's not likely to change. Using [Helper Commands](../tips/helper_commands.md) the ID is automatically obtained.
